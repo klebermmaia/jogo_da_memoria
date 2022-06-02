@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="---AQUI A DESCRIÇÃO DO SITE---">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Jogo da memoria</title>
+</head>
+
+<body>
+  <section class="tabuleiro">
+    <div class="tentativas">
+      <table>
+        <tr>
+          <th>tentativas</th>
+          <th>Wins</td>
+        </tr>
+        <tr>
+          <td id="attempts">0</td>
+          <td id="wins">0</td>
+        </tr>
+        <tr>
+          <td colspan="2">Melhor jogo</td>
+        </tr>
+        <tr>
+          <td>tentativas: </td>
+          <td id="bestGame">0</td>
+        </tr>
+      </table>
+    </div>
+    <div class="card" data-card="dipper">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/dipper.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="dipper">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/dipper.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="mabel">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/mabel.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="mabel">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/mabel.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="wendy">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/wendy.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="wendy">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/wendy.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="soos">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/soos.webp" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="soos">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/soos.webp" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="stan">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/stan.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="stan">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/stan.png" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="stanford">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/stanford.webp" alt="frente" class="card-front">
+    </div>
+    <div class="card" data-card="stanford">
+      <img src="assets/media/verso.webp" alt="verso" class="card-back">
+      <img src="assets/media/stanford.webp" alt="frente" class="card-front">
+    </div>
+    <input class="reset" onclick="resetGame()" type="button" value="Reset">
+  </section>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
